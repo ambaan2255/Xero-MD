@@ -38,7 +38,7 @@
     "ALIVE_MSG": {
       "description": "Test run bot",
       "required":true,
-      "value":"i am alive now buddy",
+      "value":"i am alive now buddy"
     },
     "ALIVE_LOGO": {
       "description": "set ur alive pic",
