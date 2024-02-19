@@ -2,7 +2,7 @@
   "name": "XERO-WA-BOT",
   "description": "WhatsApp bot.",
   "logo": "https://i.imgur.com/jwG0K4A.jpeg",
-  "repository": "https://github.com/Afx-Nasim/Xero-MD",
+  "repository": "https://github.com/S-U-P-E-R-I-O-R/Xero-MD",
   "stack": "container",
   "env": {
     "LOGS": {
