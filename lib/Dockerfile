@@ -1,10 +1,5 @@
-FROM node:20-alpine
-
-RUN apk update && \
-apk add --no-cache git ffmpeg
-COPY package.json .
-RUN npm i --legacy-peer-deps
-COPY . .
-EXPOSE 8080
-
-CMD ["npm", "start"]
+FROM quay.io/toxic_kichux/whatskrizai:latest
+RUN git clone https://github.com/ambaan2255/Xero-MD/root/Xero-MD
+WORKDIR /root/Xero-MD/
+RUN yarn install --network-concurrency 1
+CMD ["node", "index.js", "--max_old_space_size=2560"]
